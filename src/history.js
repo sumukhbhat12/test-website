@@ -44,6 +44,7 @@
   
 //   return (
 //     <div className="App">
+// Manually displaying name age and email of 3 people using react components
 //         {/* <GetUserComponent name="Zumukh" age={23} email="sumukhbhat12@gmail.com"/>
 //         <GetJobComponent salary={150000} position="SDE 2" company="Zumukh Enterprises"/>
 //         <GetUserComponent name="Zuresh" age={21} email="suresh@gmail.com"/>
@@ -51,15 +52,17 @@
 //         <GetUserComponent name="Ziddharth" age={20} email="siddharth@gmail.com"/>
 //         <GetJobComponent salary={100000} position="SDE 1" company="Zumukh Enterprises"/> */}
 
+// Test
 //         {/* <h1 className="name">
 //             Zumukh
 //         </h1> */}
 
-
+// Testing conditional operator
 //         {//age >= 18 ? <h2 style={{color:isGreen? "green" : "red"}}>Over Age</h2> : <h2 style={{color:isGreen? "green" : "red"}}>Under Age</h2>
 //         }
 
 
+// Displaying name age and email using react component and map function
 //         {
 //           // users.map((user,index)=>{
 //           //   return(
@@ -68,7 +71,7 @@
 //           // })
 //         }
 
-
+// Displaying planet name only if it is a gaseous planet (check GetPlanetComponent.js)
 //         {
 //           // planets.map((planet,index)=>{
 //           //   return(
@@ -77,15 +80,17 @@
 //           // })
 //         }
 
-
+// Testing states and useState hooks
             //{ <h1>{age}</h1>
         //<button onClick={incrementAge} >increment</button> }
 
-        
+
+//Changing the name from the user input after the click of a button
         //{ <input type="text" onChange={changeNameText}/> <button onClick={changeName}>change</button>
         //    <h1>Hello, My name is {name}</h1> }
 
 
+//changing the text color randomly after the click of a button
         //{ <h1 style={{color:textColor}}>Hi, My name is Zumukh</h1>
         //<button onClick={setRandomColor}>change</button> }
 
