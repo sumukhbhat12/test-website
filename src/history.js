@@ -20,11 +20,13 @@
 // const [age, setAge] = useState(0);
 // const [textColor,setTextColor] = useState("black");
 // const colors = ["red","green","yellow","pink","hotpink","purple","skyblue","blue","cyan","brown","grey","magenta"];
+// const [count, setCount] = useState(0);
   
 
   // const incrementAge = ()=>{
   //  setAge(age+1);
   // }
+
 
   // const changeName = ()=>{
   //   setName(text);
@@ -34,10 +36,24 @@
   //   text = event.target.value;
   // }
 
+
   // const setRandomColor = () => {
   //   const rando = Math.floor(Math.random()*colors.length); 
   //   console.log(rando); 
   //   setTextColor(colors[rando % colors.length]);
+  // }
+
+
+  // const incrementCount = () => {
+  //   setCount(count + 1);
+  // }
+
+  // const resetCount = () => {
+  //   setCount(0);
+  // }
+
+  // const decrementCount = () => {
+  //   setCount(count > 0 ? count - 1 : 0);
   // }
 
 
@@ -94,6 +110,13 @@
         //{ <h1 style={{color:textColor}}>Hi, My name is Zumukh</h1>
         //<button onClick={setRandomColor}>change</button> }
 
+
+//creating a simple counter with increment, decrement and reset count buttons        
+        //<h1>{count}</h1>
+        //<button onClick={incrementCount}>increment</button> 
+        //<button onClick={resetCount}>reset</button> 
+        //<button onClick={decrementCount}>decrement</button>
+        
 //     </div>
 //   );
 // }
