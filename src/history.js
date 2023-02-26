@@ -21,7 +21,7 @@
 // const [textColor,setTextColor] = useState("black");
 // const colors = ["red","green","yellow","pink","hotpink","purple","skyblue","blue","cyan","brown","grey","magenta"];
 // const [count, setCount] = useState(0);
-  
+// const [showText,setShowText] = useState(false);
 
   // const incrementAge = ()=>{
   //  setAge(age+1);
@@ -116,6 +116,11 @@
         //<button onClick={incrementCount}>increment</button> 
         //<button onClick={resetCount}>reset</button> 
         //<button onClick={decrementCount}>decrement</button>
+
+
+//Learning component life cycle and trying useEffect hook        
+        //<button onClick={()=>{setShowText(!showText);}}>Show Text</button>
+        //{showText && <GetTextComponent />}
         
 //     </div>
 //   );
