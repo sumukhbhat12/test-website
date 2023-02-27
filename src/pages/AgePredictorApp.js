@@ -1,10 +1,10 @@
 
-import './App.css';
+import '../App.css';
 import Axios from 'axios';
 import { useState } from 'react';
 
-function App() {
-
+//function App() {
+export const AgePredictor = () => {
   const [ageObj, setAgeObj] = useState(null);
   const [name, setName] = useState("");
 
@@ -26,4 +26,4 @@ function App() {
     
   );
 }
-export default App;
+//export default App;

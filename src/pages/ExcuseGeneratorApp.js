@@ -1,9 +1,10 @@
 
-import './App.css';
+import '../App.css';
 import Axios from 'axios';
 import { useState } from 'react';
 
-function App() {
+//function App() {
+export const ExcuseGenerator = () => {
 
   const [excuse,setExcuse] = useState("");
 
@@ -25,4 +26,4 @@ function App() {
     
   );
 }
-export default App;
+//export default App;
