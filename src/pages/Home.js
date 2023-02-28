@@ -1,3 +1,6 @@
+import { useParams } from "react-router-dom"
+
 export const Home = () => {
-    return <h1>Home</h1>
+    let {name} = useParams();
+    return <h1>Welcome to Homepage! {name}</h1>
 }

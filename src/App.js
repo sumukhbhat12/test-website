@@ -7,6 +7,7 @@ import { AgePredictor } from './pages/AgePredictorApp';
 import { DogFactGenerator } from './pages/DogFactGeneratorApp';
 import { ErrorPage } from './pages/ErrorPage';
 import { Navbar } from './Navbar';
+import { NavButtons } from './NavButtons';
 
 function App() {
 
@@ -14,8 +15,10 @@ function App() {
     <div className="App">
         <Router>
           <Navbar />
+          <NavButtons />
           <Routes>
-            <Route path='/' element={ <Home /> }/>
+          <Route path='/' element={ <Home /> }/>
+            <Route path='/:name' element={ <Home /> }/>
             <Route path='/excuse' element={ <ExcuseGenerator /> }/>
             <Route path='/age' element={ <AgePredictor />} />
             <Route path='/dog' element={ <DogFactGenerator /> }/>

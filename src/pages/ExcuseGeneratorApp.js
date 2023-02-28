@@ -18,9 +18,9 @@ export const ExcuseGenerator = () => {
   return (
     <div className="App">
         <h1>Generate an Excuse</h1>
-        <button onClick={() => generateExcuse('party')}>Party</button>
-        <button onClick={() => generateExcuse('family')}>Family</button>
-        <button onClick={() => generateExcuse('office')}>Office</button>
+        <button style={{marginRight:'10px'}} onClick={() => generateExcuse('party')}>Party</button>
+        <button style={{marginRight:'10px'}} onClick={() => generateExcuse('family')}>Family</button>
+        <button style={{marginRight:'10px'}} onClick={() => generateExcuse('office')}>Office</button>
         <p>{excuse}</p>
     </div>
     

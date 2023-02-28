@@ -1,3 +1,6 @@
+import { useLocation } from "react-router-dom";
+
 export const ErrorPage = () => {
-    return <h1>ERROR 404: Page Not Found!</h1>
+    const location = useLocation();
+    return <h1>ERROR 404: Page Not Found! Path: {location.pathname} Does Not Exist!</h1>
 }
