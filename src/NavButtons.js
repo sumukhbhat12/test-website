@@ -8,6 +8,8 @@ export const NavButtons = () => {
             <button style={{marginRight:'10px', marginBottom:'20px', marginTop:'20px'}} onClick={() => {navigate('/age')}}>Age Predictor</button>
             <button style={{marginRight:'10px', marginBottom:'20px', marginTop:'20px'}} onClick={() => {navigate('/dog')}}>Dog Fact Generator</button>
             <button style={{marginRight:'10px', marginBottom:'20px', marginTop:'20px'}} onClick={() => {navigate('/joke')}}>Joke</button>
+            <button style={{marginRight:'10px', marginBottom:'20px', marginTop:'20px'}} onClick={() => {navigate('/country')}}>Predict Country</button>
+
           </div>
     );
 }

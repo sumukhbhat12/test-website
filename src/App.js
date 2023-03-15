@@ -13,6 +13,7 @@ import { useState, createContext } from 'react';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ProgrammingJokes } from './pages/ProgrammingJokesGenerator';
 import { CountryPredict } from './pages/CountryPredictor';
+import { FormComponent } from './pages/FormComponent';
 
 export const AppContext = createContext();
 
@@ -38,6 +39,7 @@ function App() {
               <Route path='/profile/*' element={ <Profile /> } />
               <Route path='/joke' element={ <ProgrammingJokes /> } />
               <Route path='/country' element={ <CountryPredict /> } />
+              <Route path='/form' element={ <FormComponent /> } />
               <Route path='*' element={ <ErrorPage /> }/>
             </Routes>
           </Router>
