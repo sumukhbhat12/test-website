@@ -14,6 +14,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ProgrammingJokes } from './pages/ProgrammingJokesGenerator';
 import { CountryPredict } from './pages/CountryPredictor';
 import { FormComponent } from './pages/FormComponent';
+import { Toggle } from './pages/ToggleComponent';
+import { ToDoList } from './pages/TodoListApp';
+import { DogImage } from './pages/DogImages';
+import { Counter } from './pages/CounterApp';
 
 export const AppContext = createContext();
 
@@ -31,6 +35,7 @@ function App() {
             <Routes>
               {/* {<Route path='/' element={ <Home username={username} /> }/>} --> Without AppContext, we need to provide props*/}
               <Route path='/' element={ <Home /> }/>
+              <Route path='/todo' element= { <ToDoList /> } />
               {/* <Route path='/:name' element={ <Home /> }/> */}
               <Route path='/excuse' element={ <ExcuseGenerator /> }/>
               <Route path='/age' element={ <AgePredictor /> } />
@@ -40,6 +45,9 @@ function App() {
               <Route path='/joke' element={ <ProgrammingJokes /> } />
               <Route path='/country' element={ <CountryPredict /> } />
               <Route path='/form' element={ <FormComponent /> } />
+              <Route path='/custom' element={ <Toggle /> } />
+              <Route path='/dogimage' element={ <DogImage /> } />
+              <Route path='/counter' element={ <Counter /> } />
               <Route path='*' element={ <ErrorPage /> }/>
             </Routes>
           </Router>

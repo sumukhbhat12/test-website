@@ -1,10 +1,10 @@
 //copy paste into App.js to run this application
-/*
-import './App.css';
-import { useState } from "react";
-import { GetTaskComponent } from './GetTaskComponent';
 
-function App() {
+import '../App.css';
+import { useState } from "react";
+import { GetTaskComponent } from "../Components/GetTaskComponent";
+
+export const ToDoList = () => {
 
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState("");
@@ -55,8 +55,10 @@ function App() {
   }
 
   return (
-    <div className="App">
-        <div className='addTask'>
+    <div>
+        <div>
+          <h2>To Do List</h2>
+          <br />
           <input onChange={handleChange}/>
           <button onClick={addTask}>Add Task</button>
         </div>
@@ -71,5 +73,4 @@ function App() {
     </div>
   );
 }
-export default App;
-*/
+
